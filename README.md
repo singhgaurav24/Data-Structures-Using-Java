@@ -1,4 +1,4 @@
 # *Data Structure And Alogrithm Using Java*
 ## This Repositiory contains implementaion of Data Structure And Alogrithm Using Java along with their applications.
 ### 1. [String](https://github.com/singhgaurav24/Data-Structures-Using-Java/tree/master/String/src)
-### 1. [Graph](https://github.com/singhgaurav24/Data-Structures-Using-Java/tree/master/Graph)
+### 2. [Graph](https://github.com/singhgaurav24/Data-Structures-Using-Java/tree/master/Graph)
