@@ -26,9 +26,28 @@ public static void union(int a[],int b[])
 }
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		 int a[] = {1,2};
-		 int b[] = {1,2,3};
-		 union(a,b);
+		 //int a[] = {1,2};
+		 //int b[] = {1,2,3};
+		 //union(a,b);
+		Scanner sc  = new Scanner(System.in);
+		int t = sc.nextInt();
+		while(t-->0)
+		{
+			int n = sc.nextInt();
+			int m = sc.nextInt();
+			HashSet<Integer> h = new HashSet<Integer>();
+			for(int i =0;i<n;i++)
+			{
+				h.add(sc.nextInt());
+			}
+			for(int j =0;j<m;j++)
+			{
+				h.add(sc.nextInt());
+			}
+			System.out.println(h.size());
+			
+		}
+		
 	}
 
 }
