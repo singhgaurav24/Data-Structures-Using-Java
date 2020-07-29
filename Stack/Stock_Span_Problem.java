@@ -22,8 +22,6 @@ public class Stock_Span_Problem {
 	  for(int i = 0 ; i < span.length ;i++) {
 		  System.out.print(span[i] +" ");
 	  }
-	  
-	  
   }
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

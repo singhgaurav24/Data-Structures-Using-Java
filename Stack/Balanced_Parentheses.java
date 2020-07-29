@@ -13,7 +13,7 @@ public class Balanced_Parentheses {
 				if(st.empty()) {
 					return false;
 				}
-				else if(matching(st.peek() , ch) == false) {
+				else if(matching(st.peek() , str.charAt(i)) == false) {
 					return false;
 				}
 				else {
@@ -37,9 +37,9 @@ public class Balanced_Parentheses {
 	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-  String str = "[({[([{}])]})}"; 
+        String str = "[({[([{}])]})]"; 
   		
-  System.out.println(isBalanced(str));
+        System.out.println(isBalanced(str));
 		
 	}		
 }
