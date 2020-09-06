@@ -18,10 +18,6 @@ public class Transpose_Matrix {
 			}	
 			System.out.println();
 		}
-		
-		
-		
-		   
 	    
 	}
 
