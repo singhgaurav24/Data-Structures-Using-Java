@@ -21,7 +21,7 @@ public class SubArray_With_0_Sum {
 		// TODO Auto-generated method stub
 		int arr[] = new int[]{5, 3, 9, -4, -6, 7, -1};
         int n = arr.length;
-        
+     
         System.out.println(ZeroSumSubarray(arr, n));
 	}
 
